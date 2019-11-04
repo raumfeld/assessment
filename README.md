@@ -1,4 +1,4 @@
 Teufel assessment
 =================
 
-* music.json was created using https://picsum.photos and http://metallizer.dk ❤️
+* music.json was created using Apple Music MusicKit API ❤️
