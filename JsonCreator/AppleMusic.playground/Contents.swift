@@ -55,7 +55,7 @@ let cancellable = URLSession
             )
         }
     }
-.encode(encoder: JSONEncoder.pretty)
+    .encode(encoder: JSONEncoder.pretty)
     .map { String(data: $0, encoding: .utf8)! }
     .sink(receiveCompletion: { result in
         print("Finished with \(result)")
